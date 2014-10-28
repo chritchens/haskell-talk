@@ -1,0 +1,84 @@
+1)
+Monads, Monads Everywhere!!!
+A puzzling journey into Haskell Republic
+
+2)
+image: haskell-republic.png
+
+3)
+What the hack is Haskell and why should I use it?
+-Haskell is a statically typed pure functional programming language
+-- as to say a (polimorphicly) typed Scheme without all that parens
+-through polimorphic types and generics you can do
+-NO SIDE EFFECTS -> referential transparency -> equational reasoning for free
+-It's compiler can infer and check your types through the Hildley-Milner algorithm
+-If it checks it works (SAFETY!!!)
+
+4)
+What has been used for?
+- Embedded Languages (http://ivorylang.org, http://idris-lang.org)
+- Embedded Systems (http://ivorylang.org/)
+- Compilers (http://evincarofautumn.blogspot.it/2012/07/so-i-write-compilers-for-living-now.html)
+- Safe Web Frameworks (http://www.yesodweb.com/)
+
+5)
+But no one use it in production!
+
+Quite false...
+
+image: money
+
+- Financial institutions (e.g. Tsuru Capital, Deutsche Bank)
+- Security (e.g. DARPA's High-Assurance Cyber Military Systems (HACMS))
+- Startups (Scrive, Better, MailRank)
+- Others: Facebook (https://github.com/facebook/Haxl), Google (small internal projects, infrastructures, Ganeti)
+
+More on http://www.haskell.org/haskellwiki/Haskell_in_industry
+
+6)
+Haskell for newbies
+functions,
+control flow (if, then, else)
+pattern matching
+recursion
+
+7)
+Types
+basic types
+Products, Sums
+List, Maybe, Either
+pattern matching on types
+build your own types
+type families
+
+8)
+image: Yo dawg I heard you like lists
+map
+foldl
+foldr
+
+9)
+monoid
+
+10)
+functor
+
+11)
+foldable
+
+12)
+traversable
+
+13)
+applicative
+
+14)
+image: monads
+monad
+
+15)
+image: monads-inside-monads
+monad transformers
+
+
+

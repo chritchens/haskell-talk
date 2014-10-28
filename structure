@@ -1,0 +1,8 @@
+1) monad -> monoid in the category of endofunctors
+2) monad rules
+3) examples of monads (Identity, IO, [], Maybe)
+4) monad transformers (ReaderM, WriterM, StateM, ContM, ExceptM)
+5) monad transformers with mtl (Base, ReaderT, WriterT, StateT, ContT, ExceptT)
+
+
+
